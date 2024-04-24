@@ -137,7 +137,7 @@ const UpdateCoffee = () => {
                 </div>
 
             </div>
-            <input type="submit" value="ADD COFFEE" className="btn btn-block btn-primary" />
+            <input type="submit" value="UPDATE COFFEE" className="btn btn-block btn-primary" />
         </form>
     </div>
     );
