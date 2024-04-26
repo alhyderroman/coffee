@@ -7,7 +7,7 @@ const Users = () => {
 
     const handleDelete = (id) => {
         //make sure user is confirmed to delete
-        fetch(`http://localhost:5000/user/${id}`, {
+        fetch(`https://coffee-store-server-ten-umber.vercel.app/user/${id}`, {
             method: 'DELETE'
         })
         .then(res=>res.json())
@@ -39,7 +39,7 @@ const Users = () => {
                     <tbody>
 
                         {
-                            users.map(user => <tr key={user._ud}>
+                            users.map(user => <tr key={user._id}>
                                 <th>1</th>
                                 <td>{user.email}</td>
                                 <td>{user.createdAt}</td>
